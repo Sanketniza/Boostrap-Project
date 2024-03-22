@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap'); /* -------------------- -navbar section to editing --------------*/
+
+ .nav-item{
+    text-align: center;
+    padding-right: 15px;
+    width: 90px;
+ }
+  .nav-link:hover{
+    background-color: rgba(207, 180, 72, 0.75);
+    border-radius: 20px;
+    color: rgb(0, 0, 0);
+  }
+
+  h1{
+    font-family: 'Roboto', sans-serif;
+
+  }
+
+  p{
+    line-height: 30px;
+    font-size: 20px;
+    font-family: "Sofia", sans-serif;    
+  }
+
+
+
+  /*---------------------- Hero section to editing ------------------*/
+
+/* this is very IPM property due to this contain of div or section are not over loop on each other or when we zoom in-out , the contain of the parent div are not over - loop on each other at the time of zoom-out*/
+   .hero-section .container {  
+    display: grid;
+    place-content: center;
+    height: inherit;
+ } 
+   .hero-section{
+    height: 70vh;
+   }
+
+   /* .bg-main{
+    height: 80vh;
+    position: relative;
+} */
+ 
+   .video{
+    width: 350px;
+    height: 350px;
+    background-size: cover;
+    margin: auto;
+   }
+
+   /* .hero--vedio--section{
+    height: auto;
+    width: 0%;
+    border-radius: 10px;
+ } */
+
+   h1{
+    /* padding-top: 40px; */
+    line-height: 53px;
+   }
+
+   p{
+    /* padding-top: 10px   ; */
+   }
+   .btn-one
+   {
+    margin-bottom: 40px;
+   }
+
+
+ 
+  /*''''''''''''''''' shadow section page three '''''''''''''*/
+
+    .border-section{
+    }
+
+      .arrow{
+              
+      }
+    .fa-solido {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        color: black;
+        background-color: aqua;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin:auto
+    }
+
+    .fa-solid:hover{
+        background-color: rgb(188, 220, 62);
+        transition: .5s ease-in-out;
+    }
+
+    .sh:hover{
+        box-shadow: rgba(106, 218, 207, 0.871)  0px 12px 25px;
+        transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+
+    }
+
+
+
+    /*'''''''  page four  ''''''''''*/
+
+
+
+    /*'''''''''' page five '''''' */
+
+    .seo{
+      background-size: cover;
+      /* width: 10px;
+      height: 10px; */
+    }
+
+        /*'''''''''' page six '''''' */
+
+        .carousel-indicators {
+          bottom: -23%;
+       }
+       
+       .carousel-indicators [data-bs-target] {  
+           /* this is for carousel dot  */
+          width: .7rem;
+          height: .7rem;
+          background-color: #1089ff;
+       }
+
+       /* -------------------page-eight -----------------------*/
+
+       .page-eight{
+        height: 100vh;
+        background-color: rgba(17, 17, 17, 0.366);
+       }
+
